@@ -30,7 +30,7 @@ mysql.server start
 
 ```
 mysql -u root
-create database mysql_study;
+CREATE DATABASE mysql_study;
 exit;
 mysql -u root -h localhost --default-character-set=utf8 mysql_study < data/mysql_study.backup
 ```
@@ -41,15 +41,15 @@ mysql -u root -h localhost --default-character-set=utf8 mysql_study < data/mysql
 
 ```
 mysql -u root
-show databases;
-use mysql_study;
-show tables;
-select * from areas;
-select * from genders;
-select * from lineitems;
-select * from orders;
-select * from prefectures;
-select * from users;
+SHOW DATABASES;
+USE mysql_study;
+SHOW TABLES;
+SELECT * FROM areas;
+SELECT * FROM genders;
+SELECT * FROM lineitems;
+SELECT * FROM orders;
+SELECT * FROM prefectures;
+SELECT * FROM users;
 ```
 
 
